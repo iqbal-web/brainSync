@@ -56,9 +56,11 @@ Navigate to /share to create a new article.
 - You can get your own from: https://www.tiny.cloud/
 - Replace the default key in Share.js:
 
+```html
 <Editor
   apiKey="your-own-api-key"
 />
+```
 
 ## 📌 Notes
 
