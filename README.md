@@ -22,6 +22,7 @@ A lightweight React application that allows users to create, filter, and browse 
 
 ## 🗂️ Project Structure
 
+```html
 my-article-app/
 ├── public/
 ├── src/
@@ -38,6 +39,7 @@ my-article-app/
 │ └── index.js
 ├── package.json
 └── README.md
+```
 
 ---
 
