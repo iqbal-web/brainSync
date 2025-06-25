@@ -1,4 +1,4 @@
-# 📘 React Article Sharing App
+# 📘 brainSync
 
 A lightweight React application that allows users to create, filter, and browse shared articles. It features rich text editing with TinyMCE and browser-based local storage for persistence.
 
@@ -23,7 +23,7 @@ A lightweight React application that allows users to create, filter, and browse 
 ## 🗂️ Project Structure
 
 ```html
-my-article-app/
+brainSync/
 ├── public/
 ├── src/
 │ ├── assets/
