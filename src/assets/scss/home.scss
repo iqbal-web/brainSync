@@ -1,0 +1,119 @@
+.home-wrapper {
+  margin: 0 auto;
+
+  .card {
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #ccc;
+
+    .card-header {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 0.5rem;
+
+      .university {
+        font-weight: bold;
+        margin-right: 0.5rem;
+      }
+
+      .author {
+        margin-right: 0.5rem;
+
+        strong {
+          font-weight: 600;
+        }
+      }
+
+      .tag {
+        background-color: green;
+        color: white;
+        font-size: 11px;
+        padding: 0.2rem 0.4rem;
+        border-radius: 3px;
+      }
+    }
+
+    .title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      color: #111;
+    }
+
+    .summary {
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      color: #333;
+    }
+
+    .card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .read-more {
+        font-weight: bold;
+        font-size: 14px;
+        color: #000;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      .icons {
+        font-size: 14px;
+        display: flex;
+        gap: 1rem;
+
+        span {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+
+    hr {
+      margin-top: 1rem;
+      border: 0;
+      border-top: 1px solid #ddd;
+    }
+  }
+}
+
+
+.share-form {
+  margin-bottom: 2rem;
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+
+    label {
+      font-weight: 500;
+      margin-bottom: 6px;
+    }
+
+    input {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+  }
+
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #111;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #333;
+    }
+  }
+}
